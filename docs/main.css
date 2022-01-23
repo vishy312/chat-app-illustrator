@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+body {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  width: 375px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: #f5f3f7;
+}
+
+.background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff));
+  background-image: linear-gradient(right, #e942ff, #8838ff);
+  width: 40%;
+  height: 80%;
+  border-bottom-right-radius: 100000%;
+  border-top-right-radius: 1000%;
+  z-index: -1;
+}
+
+.mobile {
+  padding: 0.7em;
+  margin: 4em auto 0 auto;
+  width: 70%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.person {
+  background-image: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff));
+  background-image: linear-gradient(right, #e942ff, #8838ff);
+  border-radius: 20px 20px 8px 8px;
+}
+
+.person .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.7em;
+  padding: 0 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.person .profile img {
+  width: 15%;
+  border-radius: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.person .profile .pers {
+  line-height: 0.01;
+  color: white;
+}
+
+.person .profile .pers h5 {
+  font-weight: 500;
+}
+
+.person .profile .pers p {
+  font-size: 0.8rem;
+  color: #d89eff;
+  position: relative;
+  top: -5px;
+}
+
+.notch {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 0 0 15px 15px;
+}
+
+.chats {
+  background-color: #f5f3f7;
+}
+
+.chat-left {
+  border-radius: 5px 5px 5px 0;
+  color: #9241c8;
+  background-color: #a39daa;
+  font-size: 0.85rem;
+  padding: 0 0.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.chat-right {
+  border-radius: 5px 5px 5px 0;
+  color: #6e5d7e;
+  background-color: white;
+  font-size: 0.85rem;
+  padding: 0 0.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  gap: 0.5em;
+  margin-left: 95px;
+}
+
+.dogs img {
+  width: 30%;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=main.css.map */
