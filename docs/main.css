@@ -225,7 +225,9 @@ body {
   color: #a39daa;
 }
 
-.ch-1, .ch-2, .ch-5 {
+.ch-1,
+.ch-2,
+.ch-5 {
   width: 60%;
 }
 
@@ -241,7 +243,42 @@ body {
   left: 133px;
 }
 
-.ch-6, .ch-7 {
+.ch-6,
+.ch-7 {
   width: 80%;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1000px) {
+  body {
+    width: 1440px;
+  }
+  .background {
+    width: 430px;
+    border-radius: 0 0 200px 200px;
+    left: -100px;
+  }
+  .foreground {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .foreground .mobile {
+    width: 263px;
+    position: relative;
+    left: -90px;
+  }
+  .foreground .content {
+    width: 400px;
+    text-align: left;
+    position: relative;
+    left: -300px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

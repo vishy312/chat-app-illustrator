@@ -69,7 +69,7 @@ body {
 
 .chats {
   background-color: $appBg;
-  padding:1em 0.5em;
+  padding: 1em 0.5em;
 }
 
 .chat-left {
@@ -88,7 +88,6 @@ body {
   padding: 0 0.5em;
   box-sizing: border-box;
   float: inline-end;
-
 }
 
 .dogs {
@@ -178,19 +177,51 @@ body {
   }
 }
 
-.ch-1, .ch-2, .ch-5 {
+.ch-1,
+.ch-2,
+.ch-5 {
   width: 60%;
 }
 .ch-3 {
-    width: 60%;
-    position: relative;
-    left: 97px;
+  width: 60%;
+  position: relative;
+  left: 97px;
 }
 .ch-4 {
-    width: 45%;
-    position: relative;
-    left: 133px;
+  width: 45%;
+  position: relative;
+  left: 133px;
 }
-.ch-6, .ch-7 {
-    width: 80%;
+.ch-6,
+.ch-7 {
+  width: 80%;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1000px) {
+  body {
+    width: 1440px;
+  }
+  .background {
+    width: 430px;
+    border-radius: 0 0 200px 200px;
+    left: -100px;
+  }
+  .foreground {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .mobile {
+      width: 263px;
+      position: relative;
+      left: -90px;
+    }
+    .content {
+      width: 400px;
+      text-align: left;
+      position: relative;
+      left: -300px;
+    }
+  }
 }
